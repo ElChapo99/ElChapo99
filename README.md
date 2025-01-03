@@ -1,15 +1,15 @@
 tasks:
   harvest:
     type: "mobkilling"
-    mob: PIG
+    mob: SHEEP
     amount: 200
 display:
-  name: "&aCazador de Cerdos &e#1"
+  name: "&aCazador de Ovejas &e#1"
   lore-normal:
     - "&8Misiones de progreso."
     - ""
-    - "&7Tienes que matar 200 CERDOS"
-    - "&7Progreso: &6{harvest:progress}/200 PIG."
+    - "&7Tienes que matar 200 OVEJAS"
+    - "&7Progreso: &6{harvest:progress}/200 SHEEP."
     - ""
     - "&fRecompensas:"
     - "&7- &a&l$&a10,000&f."
@@ -21,7 +21,7 @@ startstring:
   - "&7&m-----------------------------------"
   - "&7"
   - "&f¡Tienes una nueva &a&lMISIÓN!"
-  - "&fObjetivo: &eMatar 200 CERDOS"
+  - "&fObjetivo: &eMatar 200 OVEJAS"
   - "&7"
   - "&7Al completar esta misión"
   - "&7serás recompensado con &a&l$&a10,000"
@@ -37,11 +37,11 @@ rewardstring:
 # They are useful for putting information about the players tracked quest on a scoreboard
 # You may want to keep the names of them the same for ALL quests for this use-case
 placeholders:
-  description: "&9Mata 200 CERDOS."
+  description: "&9Mata 200 OVEJAS."
   progress: " &8- &9{harvest:progress}/200"  
   
 options:
-  category: "pig"
+  category: "sheep"
   requires: []
   repeatable: false
   cooldown:
